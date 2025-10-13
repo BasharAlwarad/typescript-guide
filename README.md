@@ -131,25 +131,25 @@ Next, we’ll add setup instructions, examples, and exercises. If you have a spe
 ## TypeScript vs JavaScript (at a glance)
 
 - Language layer:
-   - JavaScript: dynamically typed, interpreted by engines (V8, SpiderMonkey, etc.)
-   - TypeScript: a superset of JavaScript that adds static types and compiles to JavaScript
+  - JavaScript: dynamically typed, interpreted by engines (V8, SpiderMonkey, etc.)
+  - TypeScript: a superset of JavaScript that adds static types and compiles to JavaScript
 - Types:
-   - JavaScript: runtime-only checks, no compile-time types
-   - TypeScript: compile-time type checking (erased at emit)
+  - JavaScript: runtime-only checks, no compile-time types
+  - TypeScript: compile-time type checking (erased at emit)
 - Tooling:
-   - JavaScript: good tooling; types rely on JSDoc or external definitions
-   - TypeScript: rich IntelliSense, refactors, and safer APIs driven by types
+  - JavaScript: good tooling; types rely on JSDoc or external definitions
+  - TypeScript: rich IntelliSense, refactors, and safer APIs driven by types
 - Compatibility:
-   - Both run everywhere JS runs. TypeScript outputs plain JS.
+  - Both run everywhere JS runs. TypeScript outputs plain JS.
 - Adoption style:
-   - TypeScript can be incremental—start with JS, add types gradually.
+  - TypeScript can be incremental—start with JS, add types gradually.
 
 ## How TypeScript compiles
 
-1) You write `.ts`/`.tsx` files
-2) The TypeScript compiler (tsc) or a bundler plugin checks types and transpiles TS → JS
-3) Types are erased; the emitted JavaScript runs in browsers or Node.js
-4) Source maps can map runtime stack traces back to TS for debugging
+1. You write `.ts`/`.tsx` files
+2. The TypeScript compiler (tsc) or a bundler plugin checks types and transpiles TS → JS
+3. Types are erased; the emitted JavaScript runs in browsers or Node.js
+4. Source maps can map runtime stack traces back to TS for debugging
 
 Key config points in `tsconfig.json`:
 
