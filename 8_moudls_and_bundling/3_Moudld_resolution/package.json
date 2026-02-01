@@ -1,0 +1,22 @@
+{
+  "name": "3_moudld_resolution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "prebuild": "rm -rf dist",
+    "prestart": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  }
+}

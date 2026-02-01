@@ -1,0 +1,25 @@
+{
+  "name": "6_webpack_advanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@types/webpack": "^5.28.5",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "uuid": "^13.0.0"
+  }
+}
